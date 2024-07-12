@@ -105,11 +105,18 @@ const ThankYou = () => {
                                 </div>
                             </div>
                         </div>
-                        <div>
-                            <p className='font-medium text-zinc-900'>Shipping Method</p>
-                            <p className='mt-2 text-zinc-700'>
-                                DHL, takes up to 3 working days
-                            </p>
+                        <div className='grid grid-cols-2 gap-x-6 border-t border-zinc-200 py-10 text-sm'>
+                            <div>
+                                <p className='font-medium text-zinc-900'>Payment status</p>
+                                <p className='mt-2 text-zinc-700'>Paid</p>
+                            </div>
+
+                            <div>
+                                <p className='font-medium text-zinc-900'>Shipping Method</p>
+                                <p className='mt-2 text-zinc-700'>
+                                    DELHIVERY, takes up to 3 working days
+                                </p>
+                            </div>
                         </div>
                     </div>
                 </div>
